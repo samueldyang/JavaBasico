@@ -1,0 +1,42 @@
+public class SmartDevice {
+
+    //1. atributos
+    String fabricante;
+    String modelo;
+    int year;
+    boolean cargaRapida;
+    boolean camara;
+    
+    //2. contructores
+    public SmartDevice(String fabricante, String modelo, int year, boolean cargaRapida, boolean camara){
+        this.fabricante = fabricante;
+        this.modelo = modelo
+        this.year = year
+        this.cargaRapida = cargaRapida
+        this.camara = camara
+}
+
+class SmartPhone extends SmartDevice
+
+class SmartWatch extends SmartDevice
+
+public class Main {
+
+    public static void Main(String[] args) {
+    
+    SmartPhone appleIphone = new SmartPhone("Apple", "Iphone12", 2020, true, true);
+    System.out.println(appleIphone.fabricante);
+    System.out.println(appleIphone.modelo);
+    System.out.println(appleIphone.year);
+    System.out.println(appleIphone.cargaRapida);
+    System.out.println(appleIphone.camara);
+    
+    SmartWatch appleWatch = new SmartWatch("Apple", "Iwatch", 2020, true, true);
+    System.out.println(appleIphone.fabricante);
+    System.out.println(appleIphone.modelo);
+    System.out.println(appleIphone.year);
+    System.out.println(appleIphone.cargaRapida);
+    System.out.println(appleIphone.camara);
+    
+    }
+}
