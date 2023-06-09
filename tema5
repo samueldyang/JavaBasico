@@ -1,0 +1,24 @@
+public interface CocheCRUD {
+    public void save();
+    public void findAll();
+    public void delete();
+}
+
+class CocheCRUDImpl implements CocheCRUD {
+    public void save() {
+    System.out.println("save");
+    public void findAll() {
+    System.out.println("findAll");
+    public void delete() {
+    System.out.println("delete");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+    CocheCRUDImpl miCoche = new CocheCRUDImpl();
+    miCoche.save();
+    miCoche.findAll();
+    miCoche.delete();
+    }
+}
