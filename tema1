@@ -1,0 +1,27 @@
+package com.example
+
+public class Tipos {
+
+    public static void main(String[] args) {
+    
+        //1. numericos
+        
+        //1.1 enteros
+        byte var1 = 1;
+        short var2 = 20;
+        int var3 = 50;
+        long var4 = 100;
+        
+        //1.2 decimales
+        float var5 = 1.5f;
+        double var6 = 10.5d;
+        
+        //2. booleanos
+        boolean var7 = false;
+        boolean var8 = true;
+        
+        //3. texto
+        char var9 = 'a';
+        String var10 = "hola ivana";
+    }
+}
