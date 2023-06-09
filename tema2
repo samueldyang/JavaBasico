@@ -1,0 +1,11 @@
+public class Main {
+    iva = 0.12
+    
+    static int precio(int x) {
+        return (iva * x) + x ;
+    }
+    
+    public static void main(String[] args) {
+         System.out.println(precio(x));
+    }
+}
